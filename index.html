@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+        <div class="display"></div>
+        <div class="lowerPart">
+          <div class="row1">
+            <div onclick="appendToDisplay('7')">7</div>
+            <div onclick="appendToDisplay('8')">8</div>
+            <div onclick="appendToDisplay('9')">9</div>
+            <div onclick="deleteLastCharacter()">del</div>
+          </div>
+          <div class="row1">
+            <div onclick="appendToDisplay('4')">4</div>
+            <div onclick="appendToDisplay('5')">5</div>
+            <div onclick="appendToDisplay('6')">6</div>
+            <div onclick="appendToDisplay('+')">+</div>
+          </div>
+          <div class="row1">
+            <div onclick="appendToDisplay('1')">1</div>
+            <div onclick="appendToDisplay('2')">2</div>
+            <div onclick="appendToDisplay('3')">3</div>
+            <div onclick="appendToDisplay('-')">-</div>
+          </div>
+          <div class="row1">
+            <div onclick="appendToDisplay('.')">.</div>
+            <div onclick="appendToDisplay('0')">0</div>
+            <div onclick="appendToDisplay('/')">/</div>
+            <div onclick="appendToDisplay('*')">*</div>
+          </div>
+          <div class="row1">
+            <div onclick="resetCalculator()" style="width: auto;">RESET</div>
+            <div onclick="calculateResult()">=</div>
+          </div>
+        </div>
+      </div>
+      
+      <script>
+      
+      </script>
+      
+      </body>
+      
+      </html>
+
+      <script src="App.js"></script>
+  </body>
+  
+</html>

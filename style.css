@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+
+.calculator {
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+  height: 500px;
+}
+.display {
+  height: 20%;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  background-color: #020202;
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.lowerPart {
+  height: 80%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #252d44;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+}
+
+.row1 div {
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 20%;
+  color: black;
+  background-color: white;
+}
